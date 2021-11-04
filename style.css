@@ -7,27 +7,26 @@ nav {
     width: 200px;
 }
 
-nav > ul {
+.ul_level_1 {
     background-color: #109157;
     filter:brightness(90%);
 }
 
 li:hover {
-   
     background-color: #109184;
 }
 
-nav > ul > li > ul {
+.ul_level_2 {
     background-color: #109157;
     filter:brightness(90%);
 }
 
-nav > ul > li > ul > li > ul {
+.ul_level_3 {
     background-color: #109157;
     filter:brightness(90%);
 }
 
-nav > ul > li > ul > li > ul > li > ul {
+.ul_level_4 {
     background-color: #109157;
     filter:brightness(90%);
 }
@@ -69,7 +68,7 @@ li > ul {
     width: 200px;
 }
 
-.submenu {
+.submenu_1, .submenu_2, .submenu_3 {
     background-image: url(icons/icon-forward.png);
     background-repeat: no-repeat;
     background-position: right;
